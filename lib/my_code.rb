@@ -31,3 +31,12 @@ def map_to_double(source_array)
 end
 
 def map_to_square(source_array)
+  i = 0 
+  new_array = []
+  while i < source_array.length do 
+    squared = source_array[i] * source_array[i]
+    new_array << squared
+    i += 1 
+  end
+  new_array
+end
