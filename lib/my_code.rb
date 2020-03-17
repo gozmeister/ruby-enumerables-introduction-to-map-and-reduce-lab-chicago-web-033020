@@ -25,6 +25,7 @@ def map_to_double(source_array)
   while i < source_array.length do
     doubled = source_array[i] * 2 
     new_array << doubled
+    i += 1
   end
   new_array
 end
